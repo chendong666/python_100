@@ -66,6 +66,7 @@ print("能组成%d个互不相同且无重复数字的三位数: " % len(list_re
 pprint.pprint(list_result)
 
 # 第六种方法
+# 调用自带的该模块和函数
 from itertools import permutations
 
 for i in permutations([1, 2, 3, 4], 3):
